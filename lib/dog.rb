@@ -1,11 +1,11 @@
 # Your code goes here!
 class Dog 
-def initialize(name)
-    @name = name 
+def initialize(inputted_name)
+    @name = inputted_name 
 end
 
-def name=(name)
-  @name = name
+def name=(inputted_name)
+  @name = inputted_name
 end
 
 def bark
